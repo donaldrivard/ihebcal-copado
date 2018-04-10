@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Contact.BirthdayAftersunset__c</members>
+		<members>Contact.Hebrew_Birthday__c</members>
+		<name>CustomField</name>
+	</types>
+
+	<types>
+		<members>*</members>
+		<name>CustomMetadata</name>
+
+	</types>
+	
+	<types>
+		<members>ContactTrigger</members>
+	 	<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>HebCalCalloutMock</members>
+		<members>HebCalCalloutMockBadStatus</members>
+		<members>HebCalConversionHandler</members>
+		<members>HebCalConversionObject</members>
+		<members>HebCalIntegrationTest</members>
+		<members>HebcalIntegration</members>
+		<members>HttpCalloutAfterSunsetMock</members>
+		<name>ApexClass</name>
+	</types>
+	<version>42.0</version>
+</Package>
