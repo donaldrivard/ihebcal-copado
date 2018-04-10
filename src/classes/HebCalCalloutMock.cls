@@ -3,7 +3,7 @@ global class HebCalCalloutMock implements HttpCalloutMock {
 
 
      global HttpResponse respond(HttpRequest req) {
-        // Create a fake response.
+        // Create a fake response
 
         System.debug('HebCalCalloutMock req '+ req);
         HttpResponse res = new HttpResponse();
