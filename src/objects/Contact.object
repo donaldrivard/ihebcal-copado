@@ -3,17 +3,13 @@
     <fields>
         <fullName>BirthdayAftersunset__c</fullName>
         <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Was the contact born after sunset.</description>
         <externalId>false</externalId>
-        <inlineHelpText>Was the contact born after sunset.</inlineHelpText>
         <label>Birthday After sunset</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Hebrew_Birthday__c</fullName>
-        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Hebrew Birthday</label>
         <length>255</length>
